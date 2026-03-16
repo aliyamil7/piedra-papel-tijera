@@ -1,2 +1,1 @@
-# piedra-papel-tijera
-Juego piedra, papel o tijera.
+https://aliyamil7.github.io/piedra-papel-tijera
