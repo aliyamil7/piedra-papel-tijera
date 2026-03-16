@@ -48,7 +48,7 @@ export function resultPage(): HTMLDivElement {
   button.addEventListener("click", () => {
     // Por ahora solo recarga la app
     // Más adelante lo reemplazamos por reset + router
-    location.href = "/";
+    location.href = "/welcome";
   });
 
   // ESTILOS
