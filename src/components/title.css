@@ -1,0 +1,24 @@
+.container-title {
+  color: rgba(0, 144, 72, 1);
+  font-size: 40px;
+  font-family: "Cutive", serif;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 115px;
+}
+
+.container-title.play {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+  padding: 15px;
+  text-align: center;
+}
+
+@media (min-width: 760px) {
+  .container-title.play {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+}

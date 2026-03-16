@@ -1,0 +1,12 @@
+.play-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 760px) {
+  .play-container {
+    justify-content: center;
+    height: 100vh;
+  }
+}

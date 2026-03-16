@@ -1,0 +1,7 @@
+.hands-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  height: 120px;
+  margin-top: 70px;
+}
