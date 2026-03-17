@@ -46,9 +46,8 @@ export function resultPage(): HTMLDivElement {
   button.textContent = "Volver a Jugar";
 
   button.addEventListener("click", () => {
-    // Por ahora solo recarga la app
-    // Más adelante lo reemplazamos por reset + router
-    location.hash = "/welcome";
+    // Al cambiar el hash, se dispara automáticamente el evento 'hashchange' del router
+    location.hash = "welcome";
   });
 
   // ESTILOS
